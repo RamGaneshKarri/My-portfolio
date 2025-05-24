@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "BookBridge",
+    "imageSrc": "projects/BookBridge.jpg",
+    "description": "Developed a responsive platform for students to buy/sell used books locally with real-time chat and user authentication.",
+    "skills": ["React.js", "Node.js", "Express.js", "Firebase"],
+    "demo": "https://bookbridge-86c00.web.app/",
+    "source": "https://github.com/RamGaneshKarri/BookBridge"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "JaggeryDelight",
+    "imageSrc": "projects/jaggeryDelight.png",
+    "description": "Built an organic jaggery e-commerce platform with secure JWT-based login and smooth shopping experience.",
+    "skills": ["React.js", "Node.js", "Express.js", "MongoDB"],
+    "demo": "https://github.com/RamGaneshKarri/JaggeryDelight",
+    "source": "https://github.com/RamGaneshKarri/JaggeryDelight"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Digital Notice Board",
+    "imageSrc": "projects/noticeboard.jpg",
+    "description": "Created a web app for posting/viewing department-specific notices with separate logins for admins and students.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Node.js"],
+    "demo": "https://github.com/RamGaneshKarri/Digital-Notice-Board",
+    "source": "https://github.com/RamGaneshKarri/Digital-Notice-Board"
   }
 ]

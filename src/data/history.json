@@ -1,29 +1,32 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "role": "Languages",
+    "icon": "💻",
+    "experiences": ["C", "Java"]
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
+    "role": "Frontend Technologies",
+    "icon": "🎨",
+    "experiences": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "React.js"]
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+    "role": "Backend Technologies",
+    "icon": "🖥️",
+    "experiences": ["Node.js", "Express.js"]
+  },
+  {
+    "role": "Databases",
+    "icon": "🗄️",
+    "experiences": ["MongoDB", "SQL"]
+  },
+  {
+    "role": "Other Tools",
+    "icon": "🛠️",
+    "experiences": ["Git", "AWS (EC2, S3)"]
+  },
+  {
+    "role": "CS Fundamentals",
+    "icon": "📘",
+    "experiences": ["OOP", "DBMS", "Operating Systems"]
   }
 ]

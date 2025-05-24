@@ -1,47 +1,63 @@
 import React from "react";
-
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Full-Stack Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I'm a full-stack developer with a strong foundation in computer
+                science, building responsive applications using React, Node.js,
+                Express, and MongoDB.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Cloud Learner</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Experienced with AWS services (EC2, S3) and passionate about backend and frontend integration using the MERN stack.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Tech Enthusiast</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I actively participate in hackathons and coding contests, always looking to build practical solutions like BookBridge and JaggeryDelight.
               </p>
+            </div>
+          </li>
+
+          <li className={styles.aboutItem}>
+            <div className={styles.aboutItemText}>
+              <h3>Achievements</h3>
+              <p>
+                🥇 1st place in Sparktank 2K24 by IIC <br />
+                🥇 District-level winner, Polytech Fest 2022 (SBTET)<br />
+                🥉 3rd place at Infovit (E-Cell) for BookBridge
+              </p>
+            </div>
+          </li>
+
+          <li className={styles.aboutItem}>
+            <div className={styles.aboutItemText}>
+              <h3>Certifications</h3>
+              <p>
+  🔹 MongoDB Developer Toolkit – GeeksforGeeks <br />
+  🔹 SQL (Basic), Java (Basic) – HackerRank <br />
+  🔹 IBM – Introduction to Web Development <br />
+  🔹 ServiceNow Certified System Administrator <br />
+  🔹 Web Development – Bharat Intern
+</p>
+
             </div>
           </li>
         </ul>

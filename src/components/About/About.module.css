@@ -72,21 +72,11 @@
     padding-left: 0;
     padding-right: 0;
   }
-
   .content {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* updated from row to column */
+    align-items: flex-start;
   }
-
-  .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  
+  
 }

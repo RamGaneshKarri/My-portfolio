@@ -65,13 +65,23 @@
 
 .historyItem {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+  flex-direction: column;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+
+
+.historyCategory {
+  margin-bottom: 30px;
 }
 
 .historyItem img {
@@ -86,6 +96,11 @@
   font-size: 30px;
   font-weight: 500;
 }
+.historyItemDetails h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 
 .historyItemDetails p {
   font-size: 20px;
@@ -99,6 +114,28 @@
   list-style-type: disc;
   margin-left: 17px;
 }
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: 10px;
+}
+
+.techItem {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: transform 0.2s ease;
+}
+
+.techItem:hover {
+  transform: scale(1.05);
+  background-color: rgba(165, 215, 232, 0.3);
+}
+
 
 @media screen and (max-width: 830px) {
   .content {

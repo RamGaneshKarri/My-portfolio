@@ -5,11 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 180px; /* 👈 Increased spacing from navbar */
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
 }
+
 
 .content {
   display: flex;
@@ -58,6 +59,15 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+
+.heroImg {
+  width: 250px; /* You can adjust size as needed */
+  height: 250px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle properly */
+  margin-left: 40px; /* Optional: space from the text */
+  border: 3px solid var(--color-accent); /* Optional: a border if you like */
 }
 
 @keyframes floating {
