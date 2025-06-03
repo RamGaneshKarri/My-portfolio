@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -28,6 +27,10 @@ export const Navbar = () => {
         >
           <li>
             <a href="#about">About</a>
+          </li>
+          {/* ✅ Education Link Below About */}
+          <li>
+            <a href="#education">Education</a>
           </li>
           <li>
             <a href="#experience">Skills</a>
