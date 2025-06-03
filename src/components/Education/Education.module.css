@@ -27,14 +27,23 @@
 }
 
 .eduCard {
-  background: rgba(255, 255, 255, 0.1);
-  border-left: 5px solid #a5d7e8;
-  padding: 20px 25px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  color: var(--color-text);
-}
-
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #a5d7e8;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: var(--color-text);
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+  }
+  
+  /* ✨ Hover Effect */
+  .eduCard:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 12px 25px rgba(165, 215, 232, 0.3);
+  }
+  
 .eduCard h3 {
   font-size: 22px;
   font-weight: 600;

@@ -40,8 +40,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Achievements</h3>
               <p>
-                🥇 1st place in Sparktank 2K24 by IIC <br />
-                🥇 District-level winner, Polytech Fest 2022 (SBTET)<br />
+              🥇 District-level winner, Polytech Fest 2022 (SBTET)<br />
+                🥇 1st place in Internal Sparktank 2K24 by IIC <br />
                 🥉 3rd place at Infovit (E-Cell) for BookBridge
               </p>
             </div>
